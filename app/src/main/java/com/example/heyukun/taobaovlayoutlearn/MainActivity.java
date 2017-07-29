@@ -460,7 +460,7 @@ public class MainActivity extends AppCompatActivity implements MyItemClickListen
         staggeredGridLayoutHelper.setPadding(20,20,20,20);
         staggeredGridLayoutHelper.setMargin(20,20,20,20);
 
-        staggeredGridLayoutHelper.setBgColor(Color.GRAY);
+        staggeredGridLayoutHelper.setBgColor(Color.CYAN);
         staggeredGridLayoutHelper.setAspectRatio(3);
 
 
@@ -468,6 +468,7 @@ public class MainActivity extends AppCompatActivity implements MyItemClickListen
         staggeredGridLayoutHelper.setLane(3);//设置控制瀑布流每行的Item数
         staggeredGridLayoutHelper.setHGap(20);//设置子元素之间的水平间距
         staggeredGridLayoutHelper.setVGap(15);//垂直;
+
 
      return staggeredGridLayoutHelper;
     }
